@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kano-kenji/react-first/static/css/main.c3afe75d.chunk.css",
+    "main.js": "/kano-kenji/react-first/static/js/main.82bbfd7a.chunk.js",
+    "main.js.map": "/kano-kenji/react-first/static/js/main.82bbfd7a.chunk.js.map",
+    "runtime-main.js": "/kano-kenji/react-first/static/js/runtime-main.1541bfcb.js",
+    "runtime-main.js.map": "/kano-kenji/react-first/static/js/runtime-main.1541bfcb.js.map",
+    "static/js/2.d262490e.chunk.js": "/kano-kenji/react-first/static/js/2.d262490e.chunk.js",
+    "static/js/2.d262490e.chunk.js.map": "/kano-kenji/react-first/static/js/2.d262490e.chunk.js.map",
+    "index.html": "/kano-kenji/react-first/index.html",
+    "precache-manifest.d13c818b4fb23c8740f03724446bcb92.js": "/kano-kenji/react-first/precache-manifest.d13c818b4fb23c8740f03724446bcb92.js",
+    "service-worker.js": "/kano-kenji/react-first/service-worker.js",
+    "static/css/main.c3afe75d.chunk.css.map": "/kano-kenji/react-first/static/css/main.c3afe75d.chunk.css.map",
+    "static/js/2.d262490e.chunk.js.LICENSE.txt": "/kano-kenji/react-first/static/js/2.d262490e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1541bfcb.js",
+    "static/js/2.d262490e.chunk.js",
+    "static/css/main.c3afe75d.chunk.css",
+    "static/js/main.82bbfd7a.chunk.js"
+  ]
+}
