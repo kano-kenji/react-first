@@ -1,5 +1,6 @@
 .App {
   /*text-align: center;*/
+  height: 100%;
 }
 
 .App-logo {
@@ -73,11 +74,16 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .App-content {
+  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
+  min-height: 100%;
+  padding-bottom: 90px;
 }
 
 .left-side {
@@ -104,10 +110,29 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .header a {
+    float: none;
+    width: 100%;
+  }
+}
+
 .footer {
-  padding: 20px; /* Some padding */
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 10px auto; !* Some padding *!*/
   text-align: center; /* Center text*/
   background: #ddd; /* Grey background */
+  height: 80px;
+  margin-top: -80px;
+}
+.footer-container{
+
+}
+
+.block{
+  flex: 25%; /* Set the width of the sidebar */
+  padding: 15px; /* Some padding */
 }
 
 .App-link {
