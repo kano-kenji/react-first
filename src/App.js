@@ -5,14 +5,16 @@ import Footer from "./components/Footer";
 import Content from "./components/Content";
 
 function App() {
+    const appVersion = '0.1.3';
+    const menu = ['About', 'Products', 'Contact'];
     return (
         //JSX format
         <div className="App">
-            <Header />
+            <Header version={appVersion} menu1={menu}/>
 
             <Content />
 
-            <Footer />
+            <Footer v={appVersion}/>
         </div>
     );
 }
