@@ -8,7 +8,7 @@ function Header(props) {
             <div className="logo">
                 <img src={Logo} alt="web site Logo" />
                 <h1>Header</h1>
-                <p>Some a description of this web site.</p>
+                <p>Some description for this web site.</p>
             </div>
 
             <div className="topnav">
