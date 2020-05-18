@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuItem from "./MenuItem";
-import Logo from "../logo.svg";
+import Logo from "../../logo.svg";
 
 function Header(props) {
     return (
@@ -12,7 +12,7 @@ function Header(props) {
             </div>
 
             <div className="topnav">
-                {props.menu.map(el => <MenuItem key={el} item={el}/>)}
+                {props.topMenu.map(el => <MenuItem key={el} item={el} />)}
             </div>
         </div>
     );
