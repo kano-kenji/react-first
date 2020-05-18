@@ -1,58 +1,29 @@
-import React, {Component} from 'react';
-
-class ContentRightBlock extends Component{
-    render() {
-        return (
-            <div className="right-side">
-                    asdasdad fad, sd as d
-                    asd asd  adsdasda asd
-                    asdasd asdasd, asdasd
-                    asdsa asdas asd as
-                    asdasd, as das ds  sd.
-            </div>
-        );
-    }
-}
-
-class ContentCentralBlock extends Component{
-    render() {
-        return (
-            <div className="main">
-                <h1>asdasdasdas</h1>
-                <p>asdda asdads asd ad asd as dasd asd asd</p>
-                <p>asdsad asdasd asdasdasdasffas fasfas fsafasfasfas
-                asfasfasfasfsafasfasfsa asfasfasf asfasfasfasf safasf
-                asfasfasfasf asfasf asf asfasf asf a sfasfas fas fasfa.</p>
-                <p>xcvvx xcvxv xcv f ds v xcv d gds b b xcbxb
-                xbcb cb  bcbx b cb b xcb xcb xc bxcb x
-                xcxcb xcbx cb xcbxcb xcbxcbxcb xcbxc bx cbxcbxbbc.</p>
-            </div>
-        );
-    }
-}
-
-class ContentLeftBlock extends Component{
-    render() {
-        return (
-            <div className="left-side">
-                <ul>
-                    <li>Left sub 1</li>
-                    <li>Left sub 2</li>
-                    <li>Left sub 3</li>
-                    <li>Left sub 4</li>
-                    <li>Left sub 5</li>
-                </ul>
-            </div>
-        );
-    }
-}
+import React from 'react';
 
 function Content() {
     return (
-        <div className="App-content">
-            <ContentLeftBlock />
-            <ContentCentralBlock />
-            <ContentRightBlock />
+        <div className="row">
+            <div className="column side">
+                <h2>Side</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+            </div>
+            <div className="column middle">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                    Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+                    Praesent scelerisque tortor sed accumsan convallis.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.
+                    Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+                    Praesent scelerisque tortor sed accumsan convallis.
+                </p>
+            </div>
+            <div className="column side">
+                <h2>Side</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+            </div>
         </div>
     );
 }

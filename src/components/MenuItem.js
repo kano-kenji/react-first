@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 function MenuItem(props) {
     return (
-        <li className='menu-item'>
+        <a className='menu-item' href="#">
             {props.item}
-        </li>
+        </a>
     );
 }
 
