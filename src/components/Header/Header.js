@@ -7,8 +7,8 @@ function Header(props) {
         <div className="header">
             <div className="logo">
                 <img src={Logo} alt="web site Logo" />
-                <h1>Header</h1>
-                <p>Some description for this web site.</p>
+                <h1>React/Redux</h1>
+                <p>Here is first part of the React/Redux course</p>
             </div>
 
             <div className="topnav">
