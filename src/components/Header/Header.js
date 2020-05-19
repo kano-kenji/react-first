@@ -6,9 +6,9 @@ function Header(props) {
     return (
         <div className="header">
             <div className="logo">
-                <img src={Logo} alt="React/Redux" />
-                <h1>React/Redux</h1>
-                <p>Here is first part of the React/Redux course</p>
+                <img src={Logo} alt="ReactJS/Redux" />
+                <h1>ReactJS/Redux</h1>
+                <p>Here is first part of the ReactJS/Redux course</p>
             </div>
 
             <div className="topnav">
