@@ -3,6 +3,7 @@ import MenuItem from "./MenuItem";
 import Logo from "../../logo.svg";
 
 function Header(props) {
+
     return (
         <div className="header">
             <div className="logo">
@@ -10,9 +11,8 @@ function Header(props) {
                 <h1>ReactJS/Redux</h1>
                 <p>Here is first part of the ReactJS/Redux course</p>
             </div>
-
             <div className="topnav">
-                {props.topMenu.map(el => <MenuItem key={el} item={el} />)}
+                {props.topMenu.map(el => <MenuItem key={el} item={el} attempt={props.attempt}/>)}
             </div>
         </div>
     );

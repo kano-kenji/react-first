@@ -4,7 +4,7 @@ function FooterBlocks(props) {
     return (
         <div className="column">
             {props.item.map((el, key) =>
-                <p key={key}>
+                <p key={key} onClick={()=>props.attempt(el)}>
                     {el}
                 </p>
             )}
