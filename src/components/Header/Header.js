@@ -3,8 +3,19 @@ import MenuItem from "./MenuItem";
 import Logo from "../../logo.svg";
 
 function Header(props) {
+
+    {/*callback*/}
+    const add = () => {
+        console.log('ADD');
+        props.attempt('shark');
+    }
+
     return (
         <div className="header">
+
+            {/*callback*/}
+            <button onClick={add}>Add</button>
+
             <div className="logo">
                 <img src={Logo} alt="ReactJS/Redux" />
                 <h1>ReactJS/Redux</h1>
