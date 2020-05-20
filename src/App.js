@@ -15,7 +15,7 @@ function App() {
     const copyright = 'Copyright © ' + (new Date()).getFullYear() + ' Alexander Tarasevich';
 
     const showItem = (item) => {
-        alert('Clicked' + ' ' + item);
+        alert('Clicked ' + item);
     }
 
     const showText = (text) => {
@@ -25,7 +25,7 @@ function App() {
     return (
         <div>
             <Header topMenu={topMenu} attempt={showItem}/>
-            <Content countries={countries} attempt={showText}/>
+            <Content countries={countries} attempt={showText} />
             <Footer footerMenu={footerMenu} copyright={copyright} attempt={showItem}/>
         </div>
     );

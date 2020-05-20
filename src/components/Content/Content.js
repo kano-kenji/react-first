@@ -37,7 +37,7 @@ function Content(props) {
                         )}
                     </select>
                 </p>
-                <div id="text-area"></div>
+                <div id="text-area">{props.text}</div>
             </div>
             <div className="column side">
                 <h2>Side</h2>
