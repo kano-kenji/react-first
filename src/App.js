@@ -18,14 +18,14 @@ function App() {
         alert('Clicked' + ' ' + item);
     }
 
-    const outText = (text) => {
+    const showText = (text) => {
         document.getElementById('text-area').innerHTML = text;
     }
 
     return (
         <div>
             <Header topMenu={topMenu} attempt={showItem}/>
-            <Content countries={countries} attempt={outText}/>
+            <Content countries={countries} attempt={showText}/>
             <Footer footerMenu={footerMenu} copyright={copyright} attempt={showItem}/>
         </div>
     );
