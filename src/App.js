@@ -15,11 +15,11 @@ function App() {
     const copyright = 'Copyright © ' + (new Date()).getFullYear() + ' Alexander Tarasevich';
 
     const showItem = (item) => {
-        alert(item);
+        alert('Clicked' + ' ' + item);
     }
 
     const outText = (text) => {
-        console.log(text);
+        document.getElementById('text-area').innerHTML = text;
     }
 
     return (
