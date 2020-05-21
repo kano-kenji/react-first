@@ -60,6 +60,31 @@ body {
   width: 50%;
 }
 
+.select-block{
+  padding: 10px;
+}
+.res-select{
+  padding: 10px;
+}
+
+.block {
+  display: inline-flex;
+}
+.block .req-box{
+  padding: 10px;
+}
+.block .req-box textarea{
+  width: 260px;
+  height: 120px;
+}
+.block .res-box{
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  overflow: auto;
+  margin: auto;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
