@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 function FooterBlocks(props) {
 
-    const [element, setElement] = useState();
+    const [element, setElement] = useState('');
 
     return (
         <div className="column">
