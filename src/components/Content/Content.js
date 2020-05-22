@@ -45,7 +45,7 @@ class Content extends Component{
                         Praesent scelerisque tortor sed accumsan convallis.
                     </p>
 
-                    <h3>setState in works</h3>
+                    <h3>setState in work</h3>
                     <div className="block">
                         <div className="req-box">
                             <textarea value={this.state.value} onChange={this.handleChange}/>
@@ -53,7 +53,7 @@ class Content extends Component{
                         <div className="res-box">{this.state.value}</div>
                     </div>
 
-                    <h3>setState with callback in works</h3>
+                    <h3>setState with callback in work</h3>
                     <Countries countries={this.props.countries} attempt={this.handleCountry}/>
                     <div className="res-select">{this.state.country}</div>
 
