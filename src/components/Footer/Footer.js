@@ -4,7 +4,7 @@ import FooterBlocks from "./FooterBlocks";
 function Footer(props) {
     return (
         <div className="footer">
-            <h3>useState in work</h3>
+            <h3>useState in work (also here is use a callback function)</h3>
             {props.footerMenu.map(el => <FooterBlocks key={el} item={el} attempt={props.attempt}/>)}
             <p className="copyright">{props.copyright}</p>
         </div>
