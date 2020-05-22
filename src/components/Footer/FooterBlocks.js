@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 
 function FooterBlocks(props) {
 
-    const [item, setItem] = useState();
+    const [element, setItem] = useState();
 
     return (
         <div className="column">
-            {props.item.map((el, key) =>
-                <p key={key} onClick={()=>setItem(props.attempt(el))}>
-                    {el}
+            {props.item.map((element, key) =>
+                <p key={key} onClick={()=>setItem(props.attempt(element))}>
+                    {element}
                 </p>
             )}
         </div>
